@@ -2,9 +2,9 @@
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
-    /* overflow-x: hidden;
+    overflow-x: hidden;
     margin: 0px auto;
-    max-width: 100%; */
+    max-width: 100%;
 }
 .header{
     display: flex;
@@ -140,6 +140,12 @@
     display: block;
     text-decoration: none;
     color: coral;
+}
+.pick1 >h4,.pick2 >h4,.pick3 >h4,.pick4 >h4{
+    font-size: 2rem;
+}
+.pick1 >p,.pick2 >p,.pick3 >p,.pick4 >p{
+    font-size: 1.3rem;
 }
 .price{
     display: flex;
@@ -321,6 +327,257 @@
     color: black;
 }
 
+
+@media (max-width:400vw){
+    .versions{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .version1, .version2, .version3 ,.version4, .version5{
+        text-align: center;
+        width: 100%;
+    }
+    .version1 > img,.version2 > img,.version3 > img,.version4 > img{
+        width: 20%;
+    }
+    .version5 > img{
+        width: 30%;
+        height: 30%;
+    }
+    .body{
+        display: flex;
+        justify-content: center;
+       
+    }
+    .body >h1 {
+        font-size: 1.5rem;
+        padding-top: 10px;
+    }
+    .peak{
+        width: 100%;
+        height: 100%;
+    }
+    .content >h1{
+        font-size: 2rem;
+    }
+    .cards{
+        display: flex;
+        flex-direction: column;
+        align-content: space-evenly;
+        row-gap: 40px;
+    }
+    .Explore{
+        display: flex;
+        justify-content: center;
+    }
+    .Explore >h1{
+        font-size: 1.7rem;
+    }
+    .Explore >a{
+        font-size: 1.2rem;
+    }
+    .picks{
+        display: flex;
+        flex-direction: column;
+    
+    }
+    .items{
+        display: flex;
+        flex-direction: column;
+        column-gap: 20px;
+    }
+    .latest >h1{
+        font-size: 2rem;
+        text-align: center;
+        margin-right: 50px;
+        padding-right: 50px;
+
+       
+    }
+    
+
+
+@media (min-width:401px) and (max-width:768px){
+    .version1 >p ,.version2 >p ,.version3 >p ,.version4 >p ,.version5 >p{
+        font-size: 35px;
+    }
+    .version1 >a,.version2 >a{
+        font-size: 25px;
+    }
+    .body{
+        display: flex;
+        justify-content: center;
+       
+    }
+    .body >h1 {
+        font-size: 2rem;
+        padding-top: 10px;
+    }
+    .content >h1{
+        font-size: 2.2rem;
+    }
+    .cards{
+        display: flex;
+        flex-direction: column;
+        align-content: space-evenly;
+        row-gap: 40px;
+        width: 100%;
+    }
+    .Explore{
+        display: flex;
+        justify-content: center;
+    }
+    .Explore >h1{
+        font-size: 1.8rem;
+    }
+    .Explore >a{
+        font-size: 1.2rem;
+    }
+    .picks{
+        display: flex;
+        flex-direction: column;
+    }
+    .items{
+        display: flex;
+        flex-direction: column;
+        column-gap: 20px;
+    }
+
+
+} 
+
+@media (min-width:769px) and (max-width:1024px){
+.versions{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.version1 >img,.version2 >img,.version3 >img,.version4 >img{
+    width: 40%;
+}
+.version5 >img{
+    width: 50%;
+    height: 50%;
+}
+.version1 >p,.version2 >p,.version3 >p,.version4 >p,.version5 >p{
+    font-size: 15px;
+}
+.version1 >a,.version2 >a{
+    font-size: 12px;
+}
+.body >h1{
+    font-size: 3rem;
+}
+.content >h1{
+    font-size: 3rem;
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    column-gap: 40px;
+}
+.card1 p,.card2 p,.card3 p,.card4 p{
+    font-size: 1rem;
+}
+.Explore >h1{
+    font-size: 2.2rem;
+}
+.Explore >a{
+    font-size: 1.6rem;
+} 
+.picks{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.items{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+    
+
+
+}
+
+
+} 
+
+
+@media (min-width:1025px) and (max-width:1440px) {
+  .versions{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .version1 >img,.version2 >img,.version3 >img,.version4 >img{
+    width: 40%;
+}
+.version5 >img{
+    width: 50%;
+    height: 50%;
+}
+.version1 >p,.version2 >p,.version3 >p,.version4 >p,.version5 >p{
+    font-size: 23px;
+}
+.version1 >a,.version2 >a{
+    font-size: 20px;
+}
+.body >h1{
+    font-size: 4rem;
+}
+.content >h1{
+    font-size: 4rem;
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    column-gap: 40px;
+}
+.card1 p,.card2 p,.card3 p,.card4 p{
+    font-size: 1.5rem;
+}
+.Explore{
+    display: flex;
+    align-items:  center;
+}
+.Explore >h1{
+    font-size: 2.3rem;
+}
+.Explore >a{
+    font-size: 1.8rem;
+} 
+.picks{
+    display: flex;
+    flex-direction: row;
+}
+ .pick1 >h4,.pick2 >h4,.pick3 >h4,.pick4 >h4{
+    font-size: 2.2rem;
+} 
+.pick1 >p,.pick2 >p,.pick3 >p,.pick4 >p{
+    font-size: 1.4rem;
+}
+.pick1 >h3,.pick2 >h3,.pick3 >h3,.pick4 >h3{
+    font-size: 1.3rem;
+}
+.price >button{
+    font-size: 1.2rem;
+    padding: 2px;
+}
+.price >a{
+    font-size: 1.3rem;
+}
+.items{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+
+
+
+
+
 /* @media (max-width:400vw){
     .versions{
         width: 100%;
@@ -338,16 +595,16 @@
     .version5 > img{
         width: 100%;
         height: 100%;
-    }
-    .body{
-        display: flex;
-        justify-content: center;
-    }
-    .body >h1 {
-        font-size: 2rem;
-    }
+    } */
+    
 
-} */
+
+
+
+
+}
+
+
 /* @media (min-width:400px) and (max-width:768vw){
     .version1 >p ,.version2 >p ,.version3 >p ,.version4 >p ,.version5 >p{
         font-size: 35px;
@@ -355,19 +612,19 @@
     .version1 >a,.version2 >a{
         font-size: 25px;
     }
-}  */
+}/
 
-/* @media (min-width:769px) and (max-width:1024vw){
+@media (min-width:769px) and (max-width:1024vw){
     .versions{
-        display: flex;
-        justify-content: space-between;
-        
+        display: grid;
+        grid-template-columns: repeat(5,1fr);
+
     }
     .version1 >img,.version2 >img,.version3 >img,.version4 >img,.version5 >img{
-        width: 20%;
+        width: 30%;
     }
     .version5 >img{
-        width: 30%;
+        width: 43%;
     }
     .version1 >p,.version2 >p,.version3 >p,.version4 >p,.version5 >p{
         font-size: 20px;
@@ -377,16 +634,5 @@
     }
 
     }
-}  */
+} */
 
-/* 
-@media (min-width:1025px) and (max-width:1440px) {
-    .versions{
-        display: grid;
-        grid-template-columns: repeat(5,1fr);
-
-    }
-    
-
-}
- */
